@@ -38,11 +38,25 @@ mix-blend-mode:difference;
 transition:padding .3s ease}
 .site-header.is-scrolled{padding-top:17px;
 padding-bottom:17px}
-.wordmark{font-size:18px;
-letter-spacing:-.04em;
-font-weight:600}
-.wordmark span{color:var(--accent);
-margin-left:3px}
+.brand{display:inline-flex;
+align-items:center;
+gap:12px;
+flex-shrink:0;
+text-decoration:none}
+.brand-symbol{width:52px;
+height:46px;
+flex-shrink:0}
+.brand-copy{display:flex;
+flex-direction:column;
+align-items:flex-start;
+gap:2px}
+.brand-name{width:154px;
+height:auto}
+.brand-byline{font:11px/1.3 var(--sans);
+letter-spacing:.12em;
+color:var(--paper);
+opacity:.8;
+padding-left:2px}
 .nav{display:flex;
 gap:34px;
 font-size:12px;
@@ -79,7 +93,7 @@ background:linear-gradient(90deg,rgba(13,12,11,.7) 0%,rgba(13,12,11,.16) 56%,rgb
 .hero-copy{position:relative;
 z-index:1;
 max-width:760px}
-.eyebrow,.section-kicker,.story-label,.reel-status,.hero-meta,.rail-hint,.contact-placeholder{font:11px var(--mono);
+.eyebrow,.story-label,.reel-status,.hero-meta,.rail-hint,.contact-placeholder{font:11px var(--mono);
 letter-spacing:.08em;
 text-transform:uppercase}
 .eyebrow{color:var(--accent);
@@ -120,11 +134,34 @@ width:1px;
 background:var(--paper);
 opacity:.5}
 .section{padding:130px 5vw}
-.section-kicker{display:flex;
-gap:14px;
-color:var(--muted);
-margin-bottom:52px}
-.section-kicker span:first-child{color:var(--accent)}
+.section-kicker{display:inline-flex;
+align-items:center;
+align-self:start;
+gap:17px;
+width:fit-content;
+min-height:48px;
+margin:0 0 48px}
+.chapter-number{font:italic 400 40px/1 Georgia,"Times New Roman",serif;
+letter-spacing:-.055em;
+color:var(--accent);
+opacity:.9;
+font-variant-numeric:lining-nums;
+flex-shrink:0}
+.chapter-rule{width:28px;
+height:1px;
+background:var(--accent);
+opacity:.4;
+flex-shrink:0}
+.chapter-copy{display:flex;
+flex-direction:column;
+gap:7px}
+.chapter-label{font:400 15px/1.4 var(--serif);
+letter-spacing:.12em;
+color:var(--paper)}
+.chapter-english{font:400 11px/1.3 var(--sans);
+letter-spacing:.14em;
+text-transform:uppercase;
+color:var(--muted)}
 .intro{padding-top:150px;
 padding-bottom:150px}
 .intro-grid{display:grid;
@@ -138,6 +175,10 @@ margin:0}
 font-size:20px;
 line-height:1.65;
 max-width:470px}
+.brand-motto{font:12px/1.6 var(--mono);
+letter-spacing:.04em;
+color:var(--accent);
+margin:0 0 24px}
 .intro-text p:first-child{margin-top:0;
 color:var(--paper)}
 .muted{font-size:15px;
@@ -150,7 +191,7 @@ align-items:end;
 gap:34px;
 margin-bottom:54px}
 .section-heading .section-kicker{margin:0;
-align-self:start}
+padding-top:5px}
 .section-heading h2{font-size:clamp(36px,5vw,66px)}
 .section-heading p{color:var(--muted);
 margin:14px 0 0}
@@ -302,12 +343,20 @@ font-size:18px}
 margin-top:43px;
 font-size:10px}
 .site-footer{display:flex;
+align-items:center;
 justify-content:space-between;
+gap:24px;
 border-top:1px solid var(--line);
 padding:22px 5vw 28px;
 color:var(--muted);
 font:10px var(--mono);
 letter-spacing:.03em}
+.footer-brand{gap:9px}
+.footer-brand .brand-symbol{width:38px;height:34px}
+.footer-brand .brand-name{width:120px}
+.footer-brand .brand-byline{font-size:10px}
+.footer-note{display:flex;flex-direction:column;gap:5px;text-align:center}
+.footer-copyright{white-space:nowrap}
 .lightbox{position:fixed;
 z-index:40;
 inset:0;
@@ -361,6 +410,11 @@ padding-bottom:110px}
 gap:35px}
 .intro-text{font-size:17px}
 .section-kicker{margin-bottom:30px}
+.chapter-number{font-size:34px}
+.chapter-rule{width:24px}
+.chapter-label{font-size:14px}
+.chapter-copy{gap:5px}
+.section-kicker{gap:14px;min-height:43px}
 .section-heading{grid-template-columns:1fr auto;
 gap:21px;
 margin-bottom:39px}
@@ -393,8 +447,9 @@ max-height:550px}
 .contact h2{font-size:63px}
 .site-footer{flex-wrap:wrap;
 gap:12px}
-.site-footer span:nth-child(2){order:3;
-width:100%}
+.footer-note{order:3;
+width:100%;
+text-align:left}
 .lightbox{padding:11vh 5vw}
 .lightbox img{max-width:100%;
 max-height:70vh}
@@ -452,12 +507,6 @@ background:rgba(21,20,18,.7)}
 
 .nest-panel[hidden]{display:none}
 
-.nest-footnote small{display:block;
-font-size:11px;
-line-height:1.9;
-margin-top:10px;
-color:var(--muted)}
-
 .contact .contact-link{color:var(--paper);
 width:fit-content;
 font-family:var(--serif);
@@ -467,7 +516,7 @@ margin-bottom:0}
 .contact-placeholder{color:var(--muted)!important;
 font-size:11px}
 
-.site-footer a{text-decoration:underline;
+.site-footer .footer-note a{text-decoration:underline;
 text-underline-offset:4px}
 
 .lightbox{grid-template-columns:44px minmax(0,1fr) 44px;
@@ -508,6 +557,10 @@ backdrop-filter:blur(12px)}
 
   .wordmark{position:relative;
 z-index:2}
+  .site-header .brand{gap:8px}
+  .site-header .brand-symbol{width:40px;height:36px}
+  .site-header .brand-name{width:130px}
+  .site-header .brand-byline{font-size:10px}
 
   .nav{height:100svh;
 bottom:auto;

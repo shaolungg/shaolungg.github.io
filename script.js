@@ -33,12 +33,12 @@
   if (content.heroVideo) {
     video = document.createElement('video'); video.className = 'hero-video';
     video.muted = true; video.loop = true; video.playsInline = true; video.preload = 'metadata'; video.poster = frames[0].src;
-    video.setAttribute('aria-label', 'shaolun 的宠物影像剪辑');
+    video.setAttribute('aria-label', 'Alongside by shaolun：小家伙们的日常短片');
     video.addEventListener('error', () => {
-      video.remove(); video = undefined; $('[data-reel-label]').textContent = '影像手记'; count.hidden = false; startReel();
+      video.remove(); video = undefined; $('[data-reel-label]').textContent = '此刻，正好'; count.hidden = false; startReel();
     }, { once: true });
     $('.hero-reel').insertBefore(video, $('.hero-vignette')); video.src = content.heroVideo;
-    $('[data-reel-label]').textContent = '宠物影像 · 开场短片'; count.hidden = true;
+    $('[data-reel-label]').textContent = '此刻，正好 · 日常短片'; count.hidden = true;
   }
   pause.addEventListener('click', () => { paused = !paused; updatePause(); startReel(); });
   document.addEventListener('visibilitychange', startReel);

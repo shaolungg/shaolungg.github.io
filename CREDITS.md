@@ -1,6 +1,6 @@
-# 初版示意素材
+# 素材鸣谢
 
-当前页面用于确认网站框架和视觉方向。照片来自 Unsplash，不是 shaolun 的摄影作品。照片标题、故事与宠物名字用于排版示例，不代表真实拍摄经历。发布个人作品后，请同步更新本文件和页脚标注。
+页面所用照片来自 Unsplash，摄影版权归各位原作者所有。感谢他们分享猫狗生活里的这些片刻。
 
 照片使用遵循 [Unsplash License](https://unsplash.com/license)。原始照片页面：
 
@@ -14,3 +14,5 @@
 - [窗边的猫](https://images.unsplash.com/photo-1495360010541-f48722b34f7d) · cat-look.jpg
 
 字体：Manrope、DM Mono、Noto Serif SC，通过 Google Fonts 加载；网络不可用时回退到本机字体。
+
+Alongside 标志使用人与小动物并肩的轮廓，字标已转为矢量路径。
