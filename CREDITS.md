@@ -1,6 +1,10 @@
 # 素材鸣谢
 
-当前展示的摄影作品由 shaolun 提供：`assets/images/encounters/001-hello/`（「Hello，要给我拍张照吗？」）。原始照片在本地单独归档，网页使用压缩版本。
+当前展示的摄影作品由 shaolun 提供：`assets/images/encounters/001-hello/`（「Hello，要给我拍张照吗？」）。另新增「今天的酷，分你一点」，位于 `assets/images/encounters/002-stay-cool/`。原始照片在本地单独归档，网页使用压缩版本。
+
+「一次相遇」新增六张由 shaolun 提供的照片：IMG_1716、IMG_1804、IMG_1832、IMG_2096、怀里的小狗、门口的狸花猫，对应 `assets/images/encounters/003-come-closer/` 至 `008-rest-by-the-door/`。卡片按主体裁切为 3:4，点击后的大图保留完整构图；原图与确认后的文字在本地 `.photo-originals/encounters/` 归档。
+
+「一次相遇」另加入 IMG_0826、IMG_0841、IMG_0931、IMG_1554、IMG_1596、IMG_3724、IMG_4375，以及草地上迈步的边牧、逆光中并排的小家伙，共九张照片，由 shaolun 提供。对应目录为 `assets/images/encounters/009-out-for-a-walk/` 至 `017-side-by-side/`，网页使用经过主体裁切的卡片图与完整构图大图，原始 HEIC、JPEG 和文字另行保存在本地。
 
 「一段关系」中的「猫哥鼠哥的小窝」同样由 shaolun 提供，六张作品位于 `assets/images/nests/maoge-shuge/`。HEIC 与 JPEG 原始文件保存在本地 `.photo-originals/nests/maoge-shuge/`，网页使用转正和压缩后的 WebP，标题及故事依照用户确认的内容整理。
 

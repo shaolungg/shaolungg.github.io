@@ -15,6 +15,182 @@ window.shaolunContent = {
       alt: "一只柯基竖着大耳朵，露出笑容望向镜头，前爪站在路面的黄线旁",
       title: "Hello，要给我拍张照吗？",
       text: "有些心动来得很简单，比如遇见一只帅气的小狗，连平常的一天都跟着明亮起来。"
+    },
+    {
+      "id": "002-stay-cool",
+      "image": "assets/images/encounters/002-stay-cool/portrait.webp",
+      "smallImage": "assets/images/encounters/002-stay-cool/portrait-small.webp",
+      "fullImage": "assets/images/encounters/002-stay-cool/full.webp",
+      "width": 900,
+      "height": 1200,
+      "alt": "戴着黑色护目镜的黑白小狗趴在草地上，张着嘴，伸着舌头",
+      "title": "今天的酷，分你一点",
+      "text": "墨镜一戴，往草地上一趴，自有一副从容模样。嘴角却藏不住好心情，连路过的我，也跟着笑了起来。"
+    },
+    {
+      "id": "003-come-closer",
+      "image": "assets/images/encounters/003-come-closer/portrait.webp",
+      "smallImage": "assets/images/encounters/003-come-closer/portrait-small.webp",
+      "fullImage": "assets/images/encounters/003-come-closer/full.webp",
+      "width": 900,
+      "height": 1200,
+      "alt": "一只三花猫竖着尾巴，从窗下的草丛中朝镜头走来",
+      "title": "你别动，我过来看看",
+      "text": "尾巴竖得高高的，从草里朝镜头走来。看这架势，今天不光是我来拍猫，也是猫来检查我。"
+    },
+    {
+      "id": "004-come-in",
+      "image": "assets/images/encounters/004-come-in/portrait.webp",
+      "smallImage": "assets/images/encounters/004-come-in/portrait-small.webp",
+      "fullImage": "assets/images/encounters/004-come-in/full.webp",
+      "width": 900,
+      "height": 1200,
+      "alt": "一只白色大狗站在敞开的木门口，张着嘴伸着舌头",
+      "title": "站门口干嘛，进来呀",
+      "text": "两只前爪并在门槛边，毛茸茸的一大只，把门口占了个满满当当。嘴巴一咧，像是已经跟你很熟了。"
+    },
+    {
+      "id": "005-keep-petting",
+      "image": "assets/images/encounters/005-keep-petting/portrait.webp",
+      "smallImage": "assets/images/encounters/005-keep-petting/portrait-small.webp",
+      "fullImage": "assets/images/encounters/005-keep-petting/full.webp",
+      "width": 900,
+      "height": 1200,
+      "alt": "一只猫站在黑色坐垫上拱着背，身旁的人正在轻抚它的后背",
+      "title": "对，就这儿，手别停",
+      "text": "背拱起来，尾巴翘起来，手掌刚好落在舒服的位置。脸上还是一本正经，身体倒是一点没客气。"
+    },
+    {
+      "id": "006-crouch-down",
+      "image": "assets/images/encounters/006-crouch-down/portrait.webp",
+      "smallImage": "assets/images/encounters/006-crouch-down/portrait-small.webp",
+      "fullImage": "assets/images/encounters/006-crouch-down/full.webp",
+      "width": 900,
+      "height": 1200,
+      "alt": "一个人蹲在街边台阶旁伸出手，两只猫一前一后凑近",
+      "title": "蹲下来，就有猫了",
+      "text": "一只凑到手边，另一只在后面张望。路还没走完，先在台阶边停一会儿，眼前这两位也挺值得认识。"
+    },
+    {
+      "id": "007-in-your-arms",
+      "image": "assets/images/encounters/007-in-your-arms/portrait.webp",
+      "smallImage": "assets/images/encounters/007-in-your-arms/portrait-small.webp",
+      "fullImage": "assets/images/encounters/007-in-your-arms/full.webp",
+      "width": 900,
+      "height": 1200,
+      "alt": "户外阳光下，一位戴帽子的人抱着扎了小辫的浅棕色小狗",
+      "title": "抱着也要看热闹",
+      "text": "扎着小辫，窝在怀里，两只爪子垂在外面。有人负责抱稳，它就负责认真看世界，连吹乱的头毛都顾不上。"
+    },
+    {
+      "id": "008-rest-by-the-door",
+      "image": "assets/images/encounters/008-rest-by-the-door/portrait.webp",
+      "smallImage": "assets/images/encounters/008-rest-by-the-door/portrait-small.webp",
+      "fullImage": "assets/images/encounters/008-rest-by-the-door/full.webp",
+      "width": 900,
+      "height": 1200,
+      "alt": "一只狸花猫靠着红色木门和门旁石雕，伸着前爪趴在石阶上",
+      "title": "你拍你的，我歇我的",
+      "text": "往门边一靠，前爪一伸，眼睛半眯着。红门、石阶，还有一只不怎么想营业的猫。它歇它的，倒让我忍不住停下来。"
+    },
+    {
+      "id": "009-out-for-a-walk",
+      "image": "assets/images/encounters/009-out-for-a-walk/portrait.webp",
+      "smallImage": "assets/images/encounters/009-out-for-a-walk/portrait-small.webp",
+      "fullImage": "assets/images/encounters/009-out-for-a-walk/full.webp",
+      "width": 900,
+      "height": 1200,
+      "alt": "蓝天和风车下，一只浅黄色大狗站在草地与石头前，身后的人牵着它",
+      "title": "出来玩，当然要开心",
+      "text": "蓝天、草地，还有身后一起出来玩的人。它站在石头前张着嘴，光看这个表情，就觉得这一趟没白来。"
+    },
+    {
+      "id": "010-grassland-hello",
+      "image": "assets/images/encounters/010-grassland-hello/portrait.webp",
+      "smallImage": "assets/images/encounters/010-grassland-hello/portrait-small.webp",
+      "fullImage": "assets/images/encounters/010-grassland-hello/full.webp",
+      "width": 900,
+      "height": 1200,
+      "alt": "一头戴红色笼头的棕色小驴站在木桩旁，身后是草地、蓝天和白云",
+      "title": "草原上，还有这位朋友",
+      "text": "草地很宽，云也很大，一头戴红色笼头的小驴站在眼前。耳朵竖得直直的，看过来的样子有点认真，也有点可爱。"
+    },
+    {
+      "id": "011-little-shopkeeper",
+      "image": "assets/images/encounters/011-little-shopkeeper/portrait.webp",
+      "smallImage": "assets/images/encounters/011-little-shopkeeper/portrait-small.webp",
+      "fullImage": "assets/images/encounters/011-little-shopkeeper/full.webp",
+      "width": 900,
+      "height": 1200,
+      "alt": "一只白色卷毛小狗坐在店铺柜台上，旁边放着打包袋，身后有点心海报",
+      "title": "小店员，今天也在",
+      "text": "柜台上坐着一团白色卷毛，旁边是打包袋，身后是点心的招牌。它不负责找零，光是坐在那儿，就让人想多看两眼。"
+    },
+    {
+      "id": "012-upstairs-downstairs",
+      "image": "assets/images/encounters/012-upstairs-downstairs/portrait.webp",
+      "smallImage": "assets/images/encounters/012-upstairs-downstairs/portrait-small.webp",
+      "fullImage": "assets/images/encounters/012-upstairs-downstairs/full.webp",
+      "width": 900,
+      "height": 1200,
+      "alt": "两只橘白与橘色的猫分别坐在石墙上方和墙根，墙头垂着红绿相间的叶子",
+      "title": "楼上的，楼下的",
+      "text": "一只坐在墙头，一只坐在墙根，中间隔着好大一面墙。同样朝这边看过来，倒像是约好了，要一起看看谁路过。"
+    },
+    {
+      "id": "013-front-row-seats",
+      "image": "assets/images/encounters/013-front-row-seats/portrait.webp",
+      "smallImage": "assets/images/encounters/013-front-row-seats/portrait-small.webp",
+      "fullImage": "assets/images/encounters/013-front-row-seats/full.webp",
+      "width": 900,
+      "height": 1200,
+      "alt": "两只浅色卷毛小狗坐在宠物推车里，身旁的人推着车停在店铺前",
+      "title": "逛街，我们坐前排",
+      "text": "两只挤在小推车里，一只探着脑袋往外看，另一只朝着摊位。人有人的逛法，它们也有自己的热闹要凑。"
+    },
+    {
+      "id": "014-through-the-glass",
+      "image": "assets/images/encounters/014-through-the-glass/portrait.webp",
+      "smallImage": "assets/images/encounters/014-through-the-glass/portrait-small.webp",
+      "fullImage": "assets/images/encounters/014-through-the-glass/full.webp",
+      "width": 900,
+      "height": 1200,
+      "alt": "两只长毛猫在玻璃门的另一边并排坐着，身后放着两座小屋",
+      "title": "隔着玻璃，也要看看你",
+      "text": "两张毛茸茸的小脸，隔着玻璃朝这边看。明明只是走到窗边，忽然就有了被认真注视的感觉。"
+    },
+    {
+      "id": "015-doorway-duo",
+      "image": "assets/images/encounters/015-doorway-duo/portrait.webp",
+      "smallImage": "assets/images/encounters/015-doorway-duo/portrait-small.webp",
+      "fullImage": "assets/images/encounters/015-doorway-duo/full.webp",
+      "width": 900,
+      "height": 1200,
+      "alt": "两只小狗一站一坐待在木门旁，面向镜头，暖光从左边照进来",
+      "title": "门口一下来了两位",
+      "text": "一个站着，一个坐着，两颗小脑袋都朝着门外。原本只是一个普通的门口，因为它们在，进出都想多停一会儿。"
+    },
+    {
+      "id": "016-let-us-go",
+      "image": "assets/images/encounters/016-let-us-go/portrait.webp",
+      "smallImage": "assets/images/encounters/016-let-us-go/portrait-small.webp",
+      "fullImage": "assets/images/encounters/016-let-us-go/full.webp",
+      "width": 900,
+      "height": 1200,
+      "alt": "阳光下，一只黑白边牧向前迈步，身后的人牵着蓝色牵引绳走在草地旁",
+      "title": "走呀，前面还有呢",
+      "text": "前爪已经迈出去了，目光还牢牢盯着前面。身后的人牵着绳，它带着一身毛和满满的兴致，把散步走得格外带劲。"
+    },
+    {
+      "id": "017-side-by-side",
+      "image": "assets/images/encounters/017-side-by-side/portrait.webp",
+      "smallImage": "assets/images/encounters/017-side-by-side/portrait-small.webp",
+      "fullImage": "assets/images/encounters/017-side-by-side/full.webp",
+      "width": 900,
+      "height": 1200,
+      "alt": "逆光窗帘前，两只深色小动物并排坐在绿色纸箱上，耳朵一圆一尖",
+      "title": "挤一挤，刚好坐下",
+      "text": "窗帘前的纸箱上，并排坐着两个小家伙。逆着光，脸都快看不清了，一圆一尖的耳朵却把它们认得明明白白。"
     }
   ],
   // 每个小窝独立存放封面、简介和按顺序排列的故事。
