@@ -24,7 +24,7 @@
     </a>
     <nav class="nav" id="site-nav" aria-label="主导航">
       <a href="#moments">遇见的片刻</a>
-      <a href="#nests">熟悉的身影</a>
+      <a href="#nests" hidden>熟悉的身影</a>
       <a href="#contact">联系</a>
     </nav>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">菜单</button>
@@ -33,17 +33,13 @@
   <main id="top">
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-reel" aria-label="小家伙们的日常影像">
-        <img class="hero-frame is-active" src="assets/images/hero.jpg" alt="一只叼着小木棍的金毛犬">
-        <img class="hero-frame" src="assets/images/dog-close.jpg" alt="一只在街上回头的狗">
-        <img class="hero-frame" src="assets/images/cat-sun.jpg" alt="一只抬头看向镜头的猫">
-        <img class="hero-frame" src="assets/images/dog-day.jpg" alt="海边的一只边牧">
         <span class="hero-vignette" aria-hidden="true"></span>
       </div>
       <div class="hero-copy">
         <p class="eyebrow">猫狗的日常，和我们的故事 · 北京及周边</p>
         <h1 id="hero-title">我的日常里，<br><em>也有你。</em></h1>
         <p class="hero-note">它们有自己的生活，也悄悄走进我们的生活。</p>
-        <div class="hero-meta"><span class="reel-status"><i></i><span data-reel-label>此刻，正好</span></span><button class="reel-pause" type="button" data-reel-pause aria-label="暂停开场画面">暂停 Ⅱ</button><span data-reel-count>01 — 04</span></div>
+        <div class="hero-meta"><span class="reel-status"><i></i><span data-reel-label>此刻，正好</span></span><button class="reel-pause" type="button" data-reel-pause hidden aria-label="暂停开场画面">暂停 Ⅱ</button></div>
       </div>
       <a class="scroll-cue" href="#intro" aria-label="向下浏览"><span>向下浏览</span><i></i></a>
     </section>
@@ -66,35 +62,31 @@
         <div class="carousel-controls" aria-label="照片浏览控制"><button type="button" data-prev aria-label="上一张">←</button><button type="button" data-next aria-label="下一张">→</button></div>
       </div>
       <div class="photo-rail" data-rail tabindex="0" aria-label="宠物照片精选，可横向浏览">
-        <article class="photo-card is-featured" data-lightbox="assets/images/dog-walk.jpg" data-alt="一只在草地上开心奔跑的狗">
-          <button class="photo-button" type="button" aria-label="放大查看：回家这件事，再商量一下"><img src="assets/images/dog-walk.jpg" alt="一只在草地上开心奔跑的狗"><span class="zoom">放大 ↗</span></button><div class="photo-caption"><h3>回家这件事，再商量一下</h3><p>牵引绳已经朝着家的方向，它还在认真研究那片草。</p></div>
-        </article>
-        <article class="photo-card" data-lightbox="assets/images/cat-rest.jpg" data-alt="一只趴在窗边的黑白猫"><button class="photo-button" type="button" aria-label="放大查看：它没打算认识我"><img src="assets/images/cat-rest.jpg" alt="一只趴在窗边的黑白猫"><span class="zoom">放大 ↗</span></button><div class="photo-caption"><h3>它没打算认识我</h3><p>我蹲了半天，它只抬头看了一眼。后来，它继续晒太阳。</p></div></article>
-        <article class="photo-card" data-lightbox="assets/images/dog-close.jpg" data-alt="一只伸出舌头的狗"><button class="photo-button" type="button" aria-label="放大查看：先闻一闻再说"><img src="assets/images/dog-close.jpg" alt="一只伸出舌头的狗"><span class="zoom">放大 ↗</span></button><div class="photo-caption"><h3>先闻一闻再说</h3><p>镜头靠近以前，鼻子要先替它把人认识一遍。</p></div></article>
-        <article class="photo-card" data-lightbox="assets/images/cat-look.jpg" data-alt="一只坐在窗边的猫"><button class="photo-button" type="button" aria-label="放大查看：今天也在观察世界"><img src="assets/images/cat-look.jpg" alt="一只坐在窗边的猫"><span class="zoom">放大 ↗</span></button><div class="photo-caption"><h3>今天也在观察世界</h3><p>它坐在窗边，把路过的风和声音都收进眼睛里。</p></div></article>
-        <article class="photo-card" data-lightbox="assets/images/dog-friend.jpg" data-alt="一只黑色小狗的近景"><button class="photo-button" type="button" aria-label="放大查看：靠近一点点"><img src="assets/images/dog-friend.jpg" alt="一只黑色小狗的近景"><span class="zoom">放大 ↗</span></button><div class="photo-caption"><h3>靠近一点点</h3><p>没有立刻成为朋友，也没有关系，今天先记住彼此。</p></div></article>
       </div>
-      <div class="rail-hint"><span>左右滑动 · 点击看大图</span><span>05 个片刻</span></div>
+      <div class="rail-hint"><span data-rail-instruction></span><span data-encounter-count></span></div>
     </section>
 
-    <section class="nests section" id="nests">
+    <section class="nests section" id="nests" hidden>
       <div class="section-heading nest-heading"><div class="section-kicker"><span class="chapter-number" aria-hidden="true">02</span><span class="chapter-rule" aria-hidden="true"></span><span class="chapter-copy"><span class="chapter-label">一段关系</span><span class="chapter-english" lang="en">Companions</span></span></div><div><h2>熟悉的身影</h2><p>一段关系，在一次次见面里，慢慢有了故事。</p></div></div>
-      <div class="nest-tabs" role="tablist" aria-label="小家伙的故事"><button id="tab-cola" class="nest-tab is-active" type="button" role="tab" aria-controls="nest-cola" aria-selected="true" data-nest="cola"><span>01</span>可乐的小窝</button><button id="tab-momo" class="nest-tab" type="button" role="tab" aria-controls="nest-momo" aria-selected="false" data-nest="momo" tabindex="-1"><span>02</span>毛毛的小窝</button></div>
-      <div class="nest-panels">
-        <article id="nest-cola" class="nest-panel is-active" role="tabpanel" aria-labelledby="tab-cola" data-panel="cola"><div class="nest-image"><button type="button" aria-label="放大故事照片" data-nest-zoom><img src="assets/images/hero.jpg" alt="叼着木棍的小狗"></button><span data-story-place>可乐 / 反复见面的朋友</span></div><div class="nest-story" aria-live="polite"><p class="story-label">可乐的小窝</p><h3>它知道每一条<br><em>回家的路。</em></h3><p data-story-text>刚认识的时候，可乐总是走在前面。后来它会在路口停下来，回头看看我有没有跟上。那些一起走过的路，慢慢变成了我们之间不用解释的默契。</p><div class="story-controls"><button type="button" class="story-arrow" data-story-prev aria-label="上一张故事照片">←</button><span data-story-count>01 / 03</span><button type="button" class="story-arrow" data-story-next aria-label="下一张故事照片">→</button></div></div></article>
-        <article id="nest-momo" class="nest-panel" role="tabpanel" aria-labelledby="tab-momo" data-panel="momo" hidden><div class="nest-image"><button type="button" aria-label="放大故事照片" data-nest-zoom><img src="assets/images/cat-sun.jpg" alt="一只抬头的小猫"></button><span data-story-place>毛毛 / 反复见面的朋友</span></div><div class="nest-story" aria-live="polite"><p class="story-label">毛毛的小窝</p><h3>它把阳光<br><em>留在身上。</em></h3><p data-story-text>毛毛有自己的时间表。下午四点，窗边的光线刚刚好，它会在那里坐很久，像是在等一个只有它知道的消息。</p><div class="story-controls"><button type="button" class="story-arrow" data-story-prev aria-label="上一张故事照片">←</button><span data-story-count>01 / 02</span><button type="button" class="story-arrow" data-story-next aria-label="下一张故事照片">→</button></div></div></article>
-      </div>
+      <div class="nest-shelf" data-nest-shelf></div>
+      <div class="nest-panels"></div>
       <p class="nest-footnote">这里放着它们的日常，也藏着我们的故事。</p>
     </section>
 
     <section class="contact section" id="contact">
+      <div class="contact-art" aria-hidden="true">
+        <picture>
+          <source media="(max-width: 800px)" srcset="assets/images/contact-dogs-mobile.webp">
+          <img src="assets/images/contact-dogs-wide.webp" width="2400" height="1200" alt="" loading="lazy" decoding="async">
+        </picture>
+      </div>
       <div class="contact-inner"><div class="section-kicker"><span class="chapter-number" aria-hidden="true">03</span><span class="chapter-rule" aria-hidden="true"></span><span class="chapter-copy"><span class="chapter-label">镜头这边的我</span><span class="chapter-english" lang="en">Behind the lens</span></span></div><div class="contact-copy"><h2>下次，<br><em>一起散步。</em></h2><p>我是 shaolun，拍照片，也拍一些慢慢展开的故事。</p><p>Alongside，是我留给小家伙们的一本影像手记。拍它们如何生活，也拍它们如何走进我们的生活。</p><p>目前在北京及周边活动，正在慢慢尝试宠物拍摄。如果你也想记录它的日常，或者你们一起生活的样子，可以来聊聊。</p><p class="contact-link">期待下一次相遇 <span>↗</span></p></div></div>
     </section>
   </main>
 
   <footer class="site-footer">
     <a class="brand footer-brand" href="#top" aria-label="Alongside by shaolun，回到顶部"><img class="brand-symbol" src="assets/brand/alongside-symbol.svg" width="38" height="34" alt="" aria-hidden="true"><span class="brand-copy"><img class="brand-name" src="assets/brand/alongside-wordmark.svg" width="120" height="31" alt="Alongside"><span class="brand-byline">by shaolun</span></span></a>
-    <div class="footer-note"><span>给小家伙们的影像手记</span><a href="CREDITS.md">照片鸣谢 · Unsplash</a></div>
+    <div class="footer-note"><span>给小家伙们的影像手记</span><span data-photo-credit></span></div>
     <span class="footer-copyright">© <span data-year></span> Alongside</span>
   </footer>
   <div class="lightbox" data-lightbox-modal role="dialog" aria-modal="true" aria-label="照片预览" hidden><button type="button" class="lightbox-close" data-close aria-label="关闭照片预览">关闭 ×</button><button type="button" class="lightbox-prev" data-lightbox-prev aria-label="上一张照片">←</button><figure><img data-lightbox-image alt=""><figcaption data-lightbox-caption></figcaption></figure><button type="button" class="lightbox-next" data-lightbox-next aria-label="下一张照片">→</button></div>
